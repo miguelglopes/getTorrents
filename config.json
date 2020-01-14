@@ -1,0 +1,32 @@
+{
+"torrents":{
+    "tbpProxies" : ["https://thepiratebay.org", "https://greenahoy.in/",
+                    "https://piraattpb.net/", "https://proxtpb.art/"],
+    "minSeeds" : 10,
+    "maxLeeches" : 99999,
+    "maxSize" : 1000,
+    "minSize" : 100,
+    "screenSize" : ["1080p", "720p"],
+    "categories" : ["Video"],
+    "subCategories" : ["HD - TV shows","TV shows"]
+},
+"database":{
+    "host" : "localhost",
+    "user" : "root",
+    "pwd" : "toor",
+    "db" : "torrentfeed",
+    "port" : 3306
+},
+"logs" : {
+    "logsFile" : "C:\\Dropbox\\projetos\\rssFeeds\\logs\\rssFeeds.log",
+    "logLevel" : "DEBUG"
+},
+"rssFeed" : {
+    "outputFile" : "C:\\Dropbox\\projetos\\rssFeeds\\torrents.xml",
+    "rssTitle": "migasll torrent feed",
+    "maxFeedItems": 50
+    },
+"trakt" : {
+    "apiKey" : "1ea0d17a81dc9b5eedb020903b77d27b8199171a8562a2434d9120f3bcedf197"
+}
+}
